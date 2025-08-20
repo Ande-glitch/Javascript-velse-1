@@ -49,22 +49,22 @@ document.getElementById("karakterBtn").addEventListener("click", function() {
     let karakter = Number(document.getElementById("karakter").value)
 
     if (karakter <= 30) {
-        console.log(`Du fikk en 1'er`);
+        alert(`Du fikk en 1'er`);
     } 
     else if (karakter >= 31 && karakter <= 45) {
-        console.log(`Du fikk en 2'er`);
+        alert(`Du fikk en 2'er`);
     }
     else if (karakter >= 46 && karakter <= 60) {
-        console.log(`Du fikk en 3'er`);
+        alert(`Du fikk en 3'er`);
     }
     else if (karakter >= 61 && karakter <= 75) {
-        console.log(`Du fikk en 4'er`);
+        alert(`Du fikk en 4'er`);
     }
     else if (karakter >= 76 && karakter <= 90) {
-        console.log(`Du fikk en 5'er`);
+        alert(`Du fikk en 5'er`);
     }
     else if (karakter >= 91 && karakter <= 100) {
-        console.log(`Du fikk en 6'er`);
+        alert(`Du fikk en 6'er`);
     }
 })
 
